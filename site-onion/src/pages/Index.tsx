@@ -13,7 +13,7 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 const Index = () => {
   return (
     <LanguageProvider>
-      <div className="min-h-screen bg-background text-foreground">
+      <div className="min-h-screen bg-background text-foreground teste">
         <Navbar />
         <HeroSection />
         <AboutUs />

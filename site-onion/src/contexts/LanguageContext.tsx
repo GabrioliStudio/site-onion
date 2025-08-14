@@ -19,8 +19,9 @@ const translations = {
     'nav.contact': 'Contato',
     
     // Hero Section
-    'hero.title': 'CRIATIVIDADE\nQUE TRANSFORMA\nIDEIAS EM\nREALIDADE',
-    'hero.subtitle': 'Somos uma agência criativa especializada em transformar conceitos em experiências visuais extraordinárias.',
+    'hero.title': 'Não seguimos\ntendências, criamos\ndireções.',
+    'hero.copy': '©  Chandresh Uike',
+    'hero.subtitle': 'Onion é uma empresa de\nBranding e Estratégia, baseada\nem São Paulo — SP',
     
     // About Section
     'about.title': 'Sobre Nós',

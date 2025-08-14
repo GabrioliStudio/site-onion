@@ -20,10 +20,10 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed top-0 w-full z-50 bg-transparent">
-        <div className="container mx-auto px-6 py-4">
-          <div className="flex justify-between items-center">
+        <div className="flex mx-[40px]">
+          <div className="flex w-full justify-between items-center">
             <div className="text-foreground font-bold text-xl">
-              naton
+              Onion
             </div>
             
             <div className="flex items-center gap-4">
@@ -56,7 +56,7 @@ const Navbar = () => {
           <div className="container mx-auto px-6 py-4">
             <div className="flex justify-between items-center mb-16">
               <div className="text-foreground font-bold text-xl">
-                naton
+                Onion
               </div>
               
               <Button
