@@ -5,6 +5,13 @@
 @tailwind utilities;
 
 /* Design system based on the reference image */
+@font-face {
+  font-family: 'Sequel Sans';
+  src: url('../public/fonts/Sequel\ sans/sequel sans semi bold disp.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 
 @layer base {
   :root {
@@ -79,4 +86,16 @@
 .container {
   margin: 0px 40px 0px 40px !important;
   padding: 0px !important;
+}
+
+.lg\:text-9xl {
+  font-size: 10.4vw !important;
+  line-height: 90% !important;
+}
+
+.hero-badge-bg {
+  height: 10.5vh;
+  border-radius: 50px !important;
+  width: 27% !important;
+  align-self: flex-end;
 }
