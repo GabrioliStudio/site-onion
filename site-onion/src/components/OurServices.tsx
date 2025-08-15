@@ -40,8 +40,19 @@ const OurServices = () => {
 
   return (
     <section className="py-20 bg-background">
-      <div className="container mx-auto px-6">
+      <div className="container px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
+
+          <div className="lg:sticky lg:top-32">
+            <div className="relative">
+              <div className="aspect-square bg-gradient-to-br from-primary/20 to-primary/5 rounded-lg shadow-card">
+                <div className="absolute inset-8 bg-muted rounded-lg flex items-center justify-center">
+                  <span className="text-muted-foreground">Service Image</span>
+                </div>
+              </div>    
+            </div>
+          </div>
+          
           {/* Services List */}
           <div className="space-y-4">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
@@ -85,18 +96,8 @@ const OurServices = () => {
           </div>
           
           {/* Image */}
-          <div className="lg:sticky lg:top-32">
-            <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-primary/20 to-primary/5 rounded-lg shadow-card">
-                <div className="absolute inset-8 bg-muted rounded-lg flex items-center justify-center">
-                  <span className="text-muted-foreground">Service Image</span>
-                </div>
-              </div>
-              
-              {/* Floating element */}
-              <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-primary rounded-full animate-float opacity-80"></div>
-            </div>
-          </div>
+
+
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ const HeroSection = () => {
   
   return (
     <section className="min-h-screen bg-black-hero flex items-center relative overflow-hidden">
-      <div className="w-full text-left mx-[40px] flex flex-col">
+      <div className="w-full h-screen mx-[40px] flex flex-col gap-20 pb-[50px] justify-end">
         
 
         <div className="flex flex-col itens-end relative">
@@ -15,14 +15,14 @@ const HeroSection = () => {
         </div>
 
         <div className="w-full">
-          <h1 className="text-5xl md:text-7xl lg:text-9xl font-black text-foreground mb-8 leading-tight whitespace-pre">
+          <h1 className=" hero-title text-foreground leading-tight whitespace-pre">
             {t('hero.title')}
           </h1>          
         </div>
 
         </div>
 
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-[20px]">
           <p className="text-sm text-muted-foreground whitespace-pre">
             {t('hero.copy')}
           </p>

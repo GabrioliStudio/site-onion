@@ -14,7 +14,7 @@ const Projects = () => {
 
   return (
     <section className="py-20 bg-gradient-dark">
-      <div className="container mx-auto px-6">
+      <div className="container px-6">
         <div className="flex justify-between items-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">
             Projetos selecionados

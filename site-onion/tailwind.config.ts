@@ -10,9 +10,6 @@ export default {
 	],
 	prefix: "",
 	theme: {
-		container: {
-			padding: '2rem',
-		},
 		extend: {
 			fontFamily: {
 				sans: ['Sequel sans', 'sans-serif'],

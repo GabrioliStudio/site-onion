@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 w-full z-50 bg-transparent">
+      <nav className="fixed top-0 w-screen z-50 bg-transparent">
         <div className="flex mx-[40px]">
           <div className="flex w-full justify-between items-center">
             <div className="text-foreground font-bold text-xl">
@@ -53,7 +53,7 @@ const Navbar = () => {
       {/* Fullscreen Menu */}
       {isMenuOpen && (
         <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-md">
-          <div className="container mx-auto px-6 py-4">
+          <div className="container px-6 py-4">
             <div className="flex justify-between items-center mb-16">
               <div className="text-foreground font-bold text-xl">
                 Onion
