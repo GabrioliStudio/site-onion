@@ -24,9 +24,13 @@ const translations = {
     'hero.subtitle': 'Onion é uma empresa de\nBranding e Estratégia, baseada\nem São Paulo — SP',
     
     // About Section
-    'about.title': 'Sobre Nós',
-    'about.description': 'Somos uma equipe apaixonada por design e inovação. Nossa missão é criar experiências digitais únicas que conectam marcas aos seus públicos de forma autêntica e impactante.',
-    
+    'about.title': 'Sobre nós',
+    'about.description': 'Somos um estúdio de design multidisciplinar, situado em São Paulo.\n\nTemos como produto principal o gerenciamento de marcas, atuando desde o princípio de sua criação até o\ndesenvolvimento de campanhas completas.\n\nEstamos aqui porque acreditamos que cada marca carrega uma narrativa, uma história que a torna única e nosso\npapel aqui é fazer com que essa história seja contada e garantir que todas as empresas que passarem por nossa\ncuradoria conquistem seu espaço e deixem sua marca.',
+
+    // manifesto
+    'manifesto.title': 'Manifesto',
+    'manifesto.description': 'Marcas crescem com direção.\n\nDireção exige estratégia. Conectamos propósito, posicionamento e estratégia através do design. Porque marcas \nrespiram cultura e comportamento.\n\nPreparamos marcas para evoluir, engajar e crescer. Somos o elo entre a ambição e a realização. \nPorque crescer é uma escolha.\n\n Não seguimos tendências, criamos direções.',
+
     // Services Section
     'services.title': 'Nossos Serviços',
     'services.branding.title': 'Branding & Identidade Visual',
@@ -72,6 +76,7 @@ const translations = {
     // About Section
     'about.title': 'About Us',
     'about.description': 'We are a team passionate about design and innovation. Our mission is to create unique digital experiences that connect brands to their audiences in an authentic and impactful way.',
+    
     
     // Services Section
     'services.title': 'Our Services',

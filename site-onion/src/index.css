@@ -56,9 +56,9 @@
 }
 
 .hero-badge-bg {
-  height: 10.5vh;
-  border-radius: 50px !important;
-  width: 27% !important;
+  height: 12vh;
+  border-radius: 80px !important;
+  width: 26% !important;
   align-self: flex-end;
 }
 }

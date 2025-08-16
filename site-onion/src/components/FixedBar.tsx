@@ -19,8 +19,7 @@ const FixedBar = () => {
       <Button
         onClick={openContact}
         size="icon"
-        className="w-12 h-12 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground"
-      >
+        className="w-12 h-12 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground">
         <MessageCircle className="w-5 h-5" />
       </Button>
       
