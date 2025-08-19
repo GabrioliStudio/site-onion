@@ -5,7 +5,7 @@
 /* Design system based on the reference image */
 @font-face {
   font-family: 'Sequel Sans';
-  src: url('../public/fonts/Sequel\ sans/sequel sans semi bold disp.woff2') format('woff2');
+  src: url('../fonts/sequel-sans/sequel-sans-semi-bold-disp.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -51,7 +51,7 @@
 }
 
 .hero-title {
-  font-size: 10.4vw !important;
+  font-size: 10vw !important;
   line-height: 90% !important;
 }
 
