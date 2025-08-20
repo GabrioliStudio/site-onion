@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <section className="px-[40px] bg-white h-full py-20">
       <div className=" w-full">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="flex flex-col xl:flex-row gap-12 items-center">
 
           <div className="space-y-6">
             <div className="w-full h-full rounded-lg">
@@ -24,7 +24,7 @@ const AboutUs = () => {
 
               <div className="h-[1px] bg-background w-full"></div>
 
-              <div className="space-y-4 leading-relaxed text-secondary-foreground whitespace-pre">
+              <div className="space-y-4 leading-relaxed text-secondary-foreground whitespace-pre-line">
                 <p>
                   {t('manifesto.description')}
                 </p>
@@ -39,7 +39,7 @@ const AboutUs = () => {
 
               <div className="h-[1px] bg-background w-full"></div>
 
-              <div className="space-y-4 leading-relaxed text-secondary-foreground whitespace-pre">
+              <div className="space-y-4 leading-relaxed text-secondary-foreground whitespace-pre-line">
                 <p>
                   {t('about.description')}
                 </p>

@@ -3,18 +3,18 @@ import { useLanguage } from "@/contexts/LanguageContext";
 const PartnersBadge = () => {
   const { t } = useLanguage();
   const partners = [
-    "Meta", "Google", "Adobe", "Microsoft", "Apple", "Netflix", "Spotify", "Tesla"
+    "Planar", "Alamino", "Brisee", "MGA", "Bunnie's"
   ];
 
   return (
     <section className="py-12 bg-primary">
-      <div className="container mx-auto px-6">
-        <div className="text-center text-primary-foreground">
-          <p className="text-sm uppercase tracking-wider font-semibold mb-6">
+      <div className="px-[40px]">
+        <div className="flex flex-col md:flex-row text-primary-foreground gap-12">
+          <p className=" text-3xl md:text-4xl font-bold">
             {t('partners.title')}
           </p>
           
-          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+          <div className="flex flex-wrap justify-between items-center gap-8 md:gap-12">
             {partners.map((partner, index) => (
               <div 
                 key={partner}

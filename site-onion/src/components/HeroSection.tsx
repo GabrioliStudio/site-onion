@@ -23,9 +23,9 @@ const HeroSection = () => {
         </div>
 
         <div className="flex flex-col gap-[20px]">
-          <p className="text-sm text-muted-foreground whitespace-pre-line">
+          <small className="text-muted-foreground whitespace-pre-line">
             {t('hero.copy')}
-          </p>
+          </small>
 
           <div className="h-[1px] bg-white w-full"></div>
 

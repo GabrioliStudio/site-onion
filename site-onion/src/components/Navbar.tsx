@@ -8,7 +8,7 @@ const Navbar = () => {
   const { language, setLanguage, t } = useLanguage();
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-  const toggleLanguage = () => setLanguage(language === "PT" ? "EN" : "PT");
+  const toggleLanguage = () => setLanguage(language === "PT"  ? "EN" : "PT");
 
   const menuItems = [
     { label: t('nav.homepage'), href: "/" },
@@ -43,6 +43,8 @@ const Navbar = () => {
                 onClick={toggleMenu}
                 className="text-foreground hover:text-primary transition-colors"
               >
+
+                <p className="text-sm">MENU</p>
                 <Menu className="w-6 h-6" />
               </Button>
             </div>
@@ -52,8 +54,8 @@ const Navbar = () => {
 
       {/* Fullscreen Menu */}
       {isMenuOpen && (
-        <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-md">
-          <div className="container px-6 py-4">
+        <div className="fixed inset-0 z-50 bg-background">
+          <div className="px-[40px] py-4">
             <div className="flex justify-between items-center mb-16">
               <div className="text-foreground font-bold text-xl">
                 Onion
@@ -65,17 +67,18 @@ const Navbar = () => {
                 onClick={toggleMenu}
                 className="text-foreground hover:text-primary transition-colors"
               >
+                <p className="text-sm">FECHAR</p>
                 <X className="w-6 h-6" />
               </Button>
             </div>
             
-            <div className="flex flex-col items-center justify-center min-h-[70vh]">
+            <div className="flex flex-col min-h-[70vh]">
               <nav className="space-y-8">
                 {menuItems.map((item, index) => (
                   <a
                     key={item.label}
                     href={item.href}
-                    className="block text-4xl md:text-6xl font-bold text-foreground hover:text-primary transition-all duration-300 text-center"
+                    className="block text-4xl md:text-6xl font-bold text-foreground hover:text-primary transition-all duration-300"
                     style={{ animationDelay: `${index * 0.1}s` }}
                     onClick={() => setIsMenuOpen(false)}
                   >

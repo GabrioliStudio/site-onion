@@ -13,10 +13,10 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations = {
   PT: {
     // Navbar
-    'nav.homepage': 'Homepage',
-    'nav.ourwork': 'Nosso Trabalho',
-    'nav.shop': 'Loja',
-    'nav.contact': 'Contato',
+    'nav.homepage': '[01] Homepage',
+    'nav.ourwork': '[02] Nosso Trabalho',
+    'nav.shop': '[03] Loja',
+    'nav.contact': '[04] Contato',
     
     // Hero Section
     'hero.title': 'Não seguimos\ntendências, criamos\ndireções.',
@@ -41,7 +41,7 @@ const translations = {
     'services.marketing.description': 'Criamos campanhas visuais impactantes que amplificam sua mensagem e geram resultados.',
     
     // Partners
-    'partners.title': 'Nossos Parceiros',
+    'partners.title': 'Confiados por líderes, transformamos o futuro',
     
     // Projects
     'projects.title': 'Projetos em Destaque',
@@ -64,10 +64,10 @@ const translations = {
   },
   EN: {
     // Navbar
-    'nav.homepage': 'Homepage',
-    'nav.ourwork': 'Our Work',
-    'nav.shop': 'Shop',
-    'nav.contact': 'Contact',
+    'nav.homepage': '[01] Homepage',
+    'nav.ourwork': '[02] Our Work',
+    'nav.shop': '[03] Shop',
+    'nav.contact': '[04] Contact',
     
     // Hero Section
     'hero.title': 'CREATIVITY\nTHAT TRANSFORMS\nIDEAS INTO\nREALITY',

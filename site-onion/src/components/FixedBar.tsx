@@ -15,21 +15,21 @@ const FixedBar = () => {
   };
 
   return (
-    <div className="fixed right-6 bottom-6 z-40 flex flex-row gap-3">
+    <div className="fixed right-[40px] bottom-[40px] z-40 flex flex-row gap-3">
       <Button
         onClick={openContact}
         size="icon"
-        className="w-12 h-12 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground">
-        <MessageCircle className="w-5 h-5" />
+        className="w-full px-[20px] rounded-full bg-primary hover:bg-primary/90 text-primary-foreground">
+        <small>Fale conosco</small>
       </Button>
       
       <Button
         onClick={scrollToTop}
         size="icon"
         variant="outline"
-        className="w-12 h-12 rounded-full border-border bg-card/80 text-foreground shadow-card"
+        className="w-full px-[20px] rounded-full border-border bg-card/80 text-foreground shadow-card"
       >
-        <ArrowUp className="w-5 h-5" />
+        <small>Voltar ao topo</small>
       </Button>
     </div>
   );
