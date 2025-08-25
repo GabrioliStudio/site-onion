@@ -46,19 +46,10 @@
 
   }
 
+/*apllies*/
+
 .container {
   padding: 0px 40px 0px 40px !important;
 }
 
-.hero-title {
-  font-size: 10vw !important;
-  line-height: 90% !important;
-}
-
-.hero-badge-bg {
-  height: 12vh;
-  border-radius: 80px !important;
-  width: 26% !important;
-  align-self: flex-end;
-}
 }
