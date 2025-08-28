@@ -30,13 +30,13 @@ const Reviews = () => {
   }, [reviews.length]);
 
   return (
-    <section className="py-20 bg-background">
-      <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mb-16">
+    <section className="py-20 bg-white">
+      <div className="w-full px-[40px]">
+        <h2 className="text-3xl md:text-4xl font-bold text-secondary-foreground text-center mb-16">
           Depoimentos
         </h2>
         
-        <div className="max-w-4xl mx-auto">
+        <div className="w-full">
           <div className="relative overflow-hidden">
             <div 
               className="flex transition-transform duration-700 ease-in-out"
@@ -75,7 +75,7 @@ const Reviews = () => {
                 key={index}
                 onClick={() => setCurrentReview(index)}
                 className={`w-3 h-3 rounded-full transition-colors ${
-                  index === currentReview ? "bg-primary" : "bg-muted"
+                  index === currentReview ? "bg-background" : "bg-background/50"
                 }`}
               />
             ))}

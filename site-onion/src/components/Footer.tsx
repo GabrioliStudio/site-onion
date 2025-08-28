@@ -9,14 +9,11 @@ const Footer = () => {
 
   return (
     <footer className="bg-background border-t border-border">
-      <div className="container mx-auto px-6 py-16">
+      <div className="w-full p-[40px]">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-foreground">naton</h3>
-            <p className="text-muted-foreground text-sm leading-relaxed">
-              Agência digital que transforma ideias em experiências únicas e impactantes.
-            </p>
+            <h3 className="text-2xl font-bold text-foreground">Onion</h3>
           </div>
           
           {/* Company Links */}
@@ -64,7 +61,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} naton. Todos os direitos reservados.
+            © {currentYear} Onion. Todos os direitos reservados.
           </p>
           
           <div className="flex gap-6">

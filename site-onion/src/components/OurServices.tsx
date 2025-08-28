@@ -40,7 +40,7 @@ const OurServices = () => {
 
   return (
     <section className="py-20 bg-background">
-      <div className="container px-6">
+      <div className="w-full px-[40px]">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
 
           <div className="lg:sticky lg:top-32">

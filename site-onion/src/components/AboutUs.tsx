@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <section className="px-[40px] bg-white h-full py-20">
       <div className=" w-full">
-        <div className="flex flex-col xl:flex-row gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-[20px] items-start">
 
           <div className="space-y-6">
             <div className="w-full h-full rounded-lg">
