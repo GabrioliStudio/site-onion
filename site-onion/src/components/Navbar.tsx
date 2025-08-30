@@ -20,10 +20,10 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed top-0 w-screen z-50 bg-transparent">
-        <div className="flex mx-[40px]">
+        <div className="flex mx-[40px] my-[20px]">
           <div className="flex w-full justify-between items-center">
-            <div className="text-foreground font-bold text-xl">
-              Onion
+            <div className="">
+              <img src="/lovable-uploads/nav-logo.png" alt="Profile" className="w-full h-full" />
             </div>
             
             <div className="flex items-center gap-4">
@@ -31,7 +31,7 @@ const Navbar = () => {
                 variant="ghost"
                 size="sm"
                 onClick={toggleLanguage}
-                className="text-foreground hover:text-primary transition-colors"
+                className="text-foreground"
               >
                 <Globe className="w-4 h-4 mr-2" />
                 {language}
@@ -41,7 +41,7 @@ const Navbar = () => {
                 variant="ghost"
                 size="sm"
                 onClick={toggleMenu}
-                className="text-foreground hover:text-primary transition-colors"
+                className="text-foreground"
               >
 
                 <p className="text-sm">MENU</p>
@@ -55,17 +55,17 @@ const Navbar = () => {
       {/* Fullscreen Menu */}
       {isMenuOpen && (
         <div className="fixed inset-0 z-50 bg-background">
-          <div className="px-[40px] py-4">
+          <div className="px-[40px] py-[20px]">
             <div className="flex justify-between items-center mb-16">
-              <div className="text-foreground font-bold text-xl">
-                Onion
-              </div>
+              <div className="">
+              <img src="/lovable-uploads/nav-logo.png" alt="Profile" className="w-full h-full" />
+            </div>
               
               <Button
                 variant="ghost"
                 size="sm"
                 onClick={toggleMenu}
-                className="text-foreground hover:text-primary transition-colors"
+                className="text-foreground"
               >
                 <p className="text-sm">FECHAR</p>
                 <X className="w-6 h-6" />
@@ -78,7 +78,7 @@ const Navbar = () => {
                   <a
                     key={item.label}
                     href={item.href}
-                    className="block text-4xl md:text-6xl font-bold text-foreground hover:text-primary transition-all duration-300"
+                    className="block text-4xl md:text-6xl font-bold text-foreground transition-all duration-300"
                     style={{ animationDelay: `${index * 0.1}s` }}
                     onClick={() => setIsMenuOpen(false)}
                   >
